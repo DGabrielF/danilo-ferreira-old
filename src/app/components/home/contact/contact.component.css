@@ -16,6 +16,9 @@
   gap: 20px;
   overflow: hidden;
 }
+.end_text {
+  font-size: smaller;
+}
 .animation_area {
   padding: 10px 30px;
   height: 200px;

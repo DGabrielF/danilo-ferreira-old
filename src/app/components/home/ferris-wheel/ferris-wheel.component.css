@@ -18,6 +18,7 @@
   animation: antiSpin 30s infinite linear;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 
 @keyframes spin {
