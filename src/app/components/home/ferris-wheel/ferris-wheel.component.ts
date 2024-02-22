@@ -21,7 +21,6 @@ export class FerrisWheelComponent implements OnInit {
   ngOnInit(): void {
     this.arrayWithPosition = [...this.itemsArray]
     this.setElementsPosition()
-    console.log(this.arrayWithPosition)
   }
 
   setElementsPosition():void {

@@ -9,11 +9,17 @@
   position: relative;
 }
 .content {
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 20px;
+  overflow: hidden;
 }
 .animation_area {
-  padding: 30px;
+  padding: 10px 30px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
