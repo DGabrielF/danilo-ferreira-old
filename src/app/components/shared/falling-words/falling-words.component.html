@@ -1,0 +1,7 @@
+<div class="falling_words" [style.height]="bgHeigth">
+  <span
+  *ngFor="let word of words"
+  [style.left.px]="word.position"
+  [style.transform]="'translateY('+heigthPx+')'"
+  class="matrix-char">{{ word.text }}</span>
+</div>

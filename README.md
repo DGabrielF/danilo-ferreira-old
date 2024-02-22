@@ -1,27 +1,27 @@
-# PersonalSite
+## Portfólio Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Este é o repositório do meu portfólio pessoal desenvolvido usando Angular. Este projeto foi criado para exibir meu trabalho, projetos e habilidades de desenvolvimento web de uma forma interativa e visualmente atraente.
 
-## Development server
+### Recursos Principais:
+- **Design Responsivo**: O portfólio é totalmente responsivo, garantindo uma ótima experiência de usuário em dispositivos móveis, tablets e desktops.
+- **Seção de Projetos**: Apresenta uma seleção dos meus projetos mais recentes e relevantes, incluindo detalhes sobre cada projeto e links para suas respectivas demos ou repositórios.
+- **Sobre Mim**: Uma seção dedicada para compartilhar minha história, experiência e habilidades.
+- **Contato**: Oferece diferentes formas de entrar em contato comigo, seja por e-mail, redes sociais ou formulário de contato direto.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Tecnologias Utilizadas:
+- **Angular**: Utilizado como o framework principal para o desenvolvimento do front-end.
+- **HTML/CSS**: Para estruturação e estilização do conteúdo.
+- **Bootstrap**: Para um layout responsivo e componentes adicionais.
+- **GitHub Pages**: Hospedagem gratuita para o portfólio, facilitando o compartilhamento e acesso.
 
-## Code scaffolding
+### Como Contribuir:
+Se você encontrar algum problema, tiver alguma sugestão ou desejar contribuir de alguma forma, sinta-se à vontade para abrir uma issue ou enviar um pull request. Seu feedback é sempre bem-vindo!
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Visualização Online:
+Uma versão online do portfólio está disponível em [link para a versão hospedada, se aplicável].
 
-## Build
+### Capturas de Tela:
+![Captura de tela do portfólio](link_para_captura_de_tela.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Agradecimentos:
+Agradeço a todos os desenvolvedores cujos projetos e tutoriais contribuíram para o desenvolvimento deste portfólio.

@@ -1,0 +1,32 @@
+.home{
+  padding-left: 20px;
+  margin: 0 20px;
+  width: 94vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.greeting {
+  color: #afa;
+}
+.name {
+  color: #0f0;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  font-size: xx-large;
+}
+.subtitle {
+  color: #0f0;
+  letter-spacing: 1.2px;
+  font-size: x-large;
+}
+.excerpt {
+  color: #0f0a;
+  max-width: 600px;
+}
+.home>button{
+  margin: 10px 0;
+  width: 160px;
+}

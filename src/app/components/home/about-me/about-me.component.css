@@ -1,0 +1,42 @@
+#about_me {
+  margin: 0 20px;
+  width: 94vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+
+.abstract{
+  font-size: smaller;
+}
+
+.about_me_content{
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.personal_introduction{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.profile_image{
+  height: 150px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid #0f07;
+  object-fit: cover;
+  position: relative;
+}
+.profile_image:hover{
+  box-shadow: 0 0 5px #0f07;
+}

@@ -1,0 +1,19 @@
+#contact {
+  margin: 0 20px;
+  width: 94vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.animation_area {
+  padding: 30px;
+}

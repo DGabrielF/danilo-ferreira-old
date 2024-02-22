@@ -1,0 +1,18 @@
+<section id="about_me">
+  <div class="section_title">
+    <h3><span class="matrix">1</span>.  Sobre mim</h3>
+    <div class="horizontal_line"></div>
+  </div>
+  <div class="about_me_content">
+    <div class="personal_introduction">
+      <p class="abstract">{{data.introduction.abstract}}</p>
+      <img class="profile_image"
+      (mouseenter)="togglePhotoHover()"
+      (mouseleave)="togglePhotoHover()"
+      [src]="isPhotoHover?'../../../assets/image/profile.jpg':'../../../assets/image/photo.jpeg'"
+      alt="">
+    </div>
+    <h4>Ecossistema Tecnológico</h4>
+  </div>
+  <app-falling-words [wordsArray]="usedTools"></app-falling-words>
+</section>

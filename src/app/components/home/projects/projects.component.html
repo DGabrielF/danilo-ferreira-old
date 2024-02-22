@@ -1,0 +1,66 @@
+<section id="projects">
+  <div class="section_title">
+    <h3><span class="matrix">3</span>.  Projetos</h3>
+    <div class="horizontal_line"></div>
+  </div>
+  <span>Profissionais</span>
+  <div class="container">
+    <div class="card_area">
+      <div
+      *ngFor="let project of projectsToExhibit"
+      class="card">
+        <div class="background">
+          <img
+          [src]="'../../../assets/image/'+project.slug+'-bg.jpeg'"
+          [alt]="project.name.toLowerCase()">
+        </div>
+        <div class="details">
+          <span class="name">{{project.name}}</span>
+          <div class="excerpt">
+            <p class="text">
+              {{project.excerpt}}
+            </p>
+          </div>
+          <button>Ver mais</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <span>Pessoais</span>
+  <div class="container">
+    <div class="card_area">
+      <div
+      *ngFor="let project of applicationsToExhibit"
+      class="card">
+        <div class="background">
+          <img
+          [src]="'../../../assets/image/'+project.slug+'-bg.jpeg'"
+          [alt]="project.name.toLowerCase()">
+        </div>
+        <div class="details">
+          <span class="name">{{project.name}}</span>
+          <div class="excerpt">
+            <p class="text">
+              {{project.description}}
+            </p>
+          </div>
+          <button>Ver mais</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- <ul class="goals">
+  <span>Objetivos</span>
+  <li
+  *ngFor="let goal of project.goals"
+  class="goal"
+  >{{goal}}</li>
+</ul> -->
+<!-- <ul class="technologies">
+  <span>Ferramentas</span>
+  <li
+  *ngFor="let tool of project.usedTools"
+  class="tool"
+  >{{tool}}</li>
+</ul> -->

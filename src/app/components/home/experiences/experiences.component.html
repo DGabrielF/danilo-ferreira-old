@@ -1,0 +1,45 @@
+<section id="experience">
+  <div class="section_title">
+    <h3><span class="matrix">2</span>.  Experiência</h3>
+    <div class="horizontal_line"></div>
+  </div>
+  <div class="experience_box">
+    <div class="experience_nav_bar">
+      <nav
+      *ngFor="let company of companyMenu"
+      (click)="selectCompany(company)"
+      class="experience_item">
+        <div [class]="companySelected.alias===company?'selected_mark':'select_mark'"></div>
+        <p [class]="companySelected.alias===company?'selected_item':'select_item'">{{company}}</p>
+      </nav>
+    </div>
+    <div class="experience_content">
+      <div class="header">
+        <span class="company">{{companySelected.company}}</span>
+        <span class="position">{{companySelected.position}}</span>
+      </div>
+      <div class="period">
+        <span>02/02/2022 a 02/02/2023</span>
+      </div>
+      <div class="horizontal_line"></div>
+      <div class="content">
+        <div class="activities">
+          <div
+          *ngFor="let activity of companySelected.activities"
+          class="activity">
+          <img src="../../../assets/icons/caret-right.svg" alt="">
+          {{activity}}
+        </div>
+      </div>
+      <div class="horizontal_line"></div>
+        <div class="projects">
+          <div
+          *ngFor="let project of companySelected.developedProjects"
+          class="project">
+            {{project.name}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

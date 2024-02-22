@@ -1,0 +1,30 @@
+<div class="top_menu">
+  <div class="top_menu_left">
+    <div class="octagon_border">
+      <div class="octagon">D</div>
+    </div>
+    <div class="languages">
+      <img src="" alt="" class="pt-br">
+      <img src="" alt="" class="en">
+    </div>
+  </div>
+  <div class="top_menu_right">
+    <div class="nav_menu">
+      <a href="#about_me"><span class="matrix">1</span>.Sobre mim</a>
+      <a href="#experience"><span class="matrix">2</span>.Experiência</a>
+      <a href="#projects"><span class="matrix">3</span>.Projetos</a>
+      <a href="#contact"><span class="matrix">4</span>.Contato</a>
+    </div>
+    <button class="curriculum">Currículo</button>
+  </div>
+  <img (click)="toggleMenuIsOpen()" src="../../../assets/icons/list-menu.svg" alt="" class="list_menu">
+  <div class="top_menu_drop" *ngIf="menuIsOpen">
+    <div class="drop_menu">
+      <a href="#about_me"><span class="matrix">1</span>.Sobre mim</a>
+      <a href="#experience"><span class="matrix">2</span>.Experiência</a>
+      <a href="#projects"><span class="matrix">3</span>.Projetos</a>
+      <a href="#contact"><span class="matrix">4</span>.Contato</a>
+    </div>
+    <button class="curriculum">Currículo</button>
+  </div>
+</div>

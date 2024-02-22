@@ -1,0 +1,118 @@
+#experience {
+  margin: 0 20px;
+  width: 94vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+
+.experience_box {
+  display: flex;
+  gap: 8px;
+}
+
+.experience_nav_bar {
+  width: 115px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.experience_item {
+  font-size: smaller;
+  display: flex;
+}
+.experience_item:hover {
+  background-color: #0f01;
+}
+.select_mark {
+  width: 2px;
+  background-color: #0f02;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+.selected_mark {
+  width: 3px;
+  background-color: #0f0e;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+.select_item {
+  padding: 5px 2px 5px 6px;
+  background-color: transparent;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+.selected_item {
+  width: 100%;
+  padding: 5px 2px 5px 5px;
+  background-color: #0f02;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.experience_content {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.company {
+  color: #0f0d;
+}
+.position {
+  color: #0f0a;
+}
+
+.period {
+  font-size: smaller;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.activity {
+  font-size: smaller;
+}
+.activity>img {
+  width: 13px;
+}
+
+.projects {
+  width: 100%;
+  font-size: smaller;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.project {
+  color: #0f0d;
+  text-shadow: 0 0 3px #0f0a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 6px 2px 6px;
+  font-size: smaller;
+  cursor: pointer;
+}
+.project:hover {
+  outline: 1px solid #0f01;
+  box-shadow: 0 0 3px #0f02;
+  background-color: #0f01;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}

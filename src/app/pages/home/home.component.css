@@ -1,0 +1,32 @@
+section {
+  margin: 0 20px;
+  width: 94vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+
+.to_top {
+  width: 23px;
+  height: 23px;
+  background-position: center;
+  background-size: 90%;
+  background-image: url("../../../assets/icons/caret-double-up.svg");
+  border-radius: 50%;
+  box-shadow: 0 0 3px #67f99f;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 1;
+  cursor: pointer;
+}
+.to_top:hover {
+  border: 1px solid #0f0a;
+  background-color: #000d;
+}
+.to_top:active {
+  background-color: #fff3;
+}
