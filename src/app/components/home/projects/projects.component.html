@@ -21,7 +21,7 @@
               {{project.excerpt}}
             </p>
           </div>
-          <button>Ver mais</button>
+          <button [routerLink]="['project', project.slug]">Ver mais</button>
         </div>
       </div>
     </div>
@@ -44,7 +44,7 @@
               {{project.description}}
             </p>
           </div>
-          <button>Ver mais</button>
+          <button [routerLink]="['project', project.slug]">Ver mais</button>
         </div>
       </div>
     </div>

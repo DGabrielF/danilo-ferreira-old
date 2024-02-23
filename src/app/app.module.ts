@@ -15,6 +15,7 @@ import { ProjectsComponent } from './components/home/projects/projects.component
 import { ExperiencesComponent } from './components/home/experiences/experiences.component';
 import { ContactComponent } from './components/home/contact/contact.component';
 import { FerrisWheelComponent } from './components/home/ferris-wheel/ferris-wheel.component';
+import { ProjectComponent } from './pages/project/project.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { FerrisWheelComponent } from './components/home/ferris-wheel/ferris-whee
     ExperiencesComponent,
     ProjectsComponent,
     ContactComponent,
-    FerrisWheelComponent
+    FerrisWheelComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,

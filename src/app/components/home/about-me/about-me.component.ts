@@ -15,10 +15,10 @@ export class AboutMeComponent implements OnInit {
 
   ngOnInit(): void {
     data.applications.forEach(app => {
-      this.usedTools.push(...app.technologies)
+      this.usedTools.push(...app.usedTools)
     })
     data.challenges.forEach(challenge => {
-      this.usedTools.push(...challenge.technologies)
+      this.usedTools.push(...challenge.usedTools)
     })
     data.experiences.forEach(experience => {
       experience.developedProjects.forEach(project => {

@@ -1,8 +1,7 @@
 .home{
-  padding-left: 20px;
-  margin: 0 20px;
-  width: 94vw;
-  height: 100vh;
+  padding: 0 20px;
+  width: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

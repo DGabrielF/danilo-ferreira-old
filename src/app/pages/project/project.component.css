@@ -1,0 +1,36 @@
+.project {
+  padding: 20px;
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  position: relative;
+  z-index: 2;
+}
+.title {
+  color: #0f0d;
+}
+.description {
+  padding: 5px;
+  font-size: smaller;
+
+  border-radius: 10px;
+  background-color: #0009;
+}
+h2 {
+  margin: 8px 0;
+  font-size: medium;
+}
+
+ul {
+  padding: 5px;
+
+  border-radius: 10px;
+  background-color: #0009;
+}
+li {
+  font-size: small;
+}

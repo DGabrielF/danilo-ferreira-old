@@ -1,0 +1,29 @@
+<div class="project">
+  <h1 class="title">{{project.name}}</h1>
+  <div class="horizontal_line"></div>
+  <h2 class="description">{{project.description}}</h2>
+  <div *ngIf="project.goals" class="goals_box">
+    <div class="horizontal_line"></div>
+    <h2 class="goals">Objetivos</h2>
+    <ul class="goals_list">
+      <li *ngFor="let goal of project.goals" class="goal">{{goal}}</li>
+    </ul>
+  </div>
+  <div *ngIf="project.usedTools" class="tools_box">
+    <div class="horizontal_line"></div>
+    <h2 class="used_tools">Ferramentas aplicadas</h2>
+    <ul class="used_tools_list">
+      <li *ngFor="let tool of project.usedTools" class="tool">{{tool}}</li>
+    </ul>
+  </div>
+  <div *ngIf="project.team.length>1" class="team_box">
+    <div class="horizontal_line"></div>
+    <h2 class="members">Equipe</h2>
+    <ul class="members_list">
+      <li *ngFor="let member of project.team" class="member">
+        <img src="" alt="">
+        <span>{{member.name}}</span>
+      </li>
+    </ul>
+  </div>
+</div>
