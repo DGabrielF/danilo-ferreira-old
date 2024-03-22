@@ -3,7 +3,7 @@
   *ngFor="let item of arrayWithPosition"
   [style.left]="item.left+'%'"
   [style.bottom]="item.bottom+'%'"
-  (click)="Contact.switchContactWay(item.name, item.url)"
+  (click)="contact.switchContactWay(item.name, item.url)"
   [style.backgroundImage]="'url(./assets/icons/'+item.name.toLowerCase()+'-logo-duotone.svg)'"
   class="seated_items"
   >

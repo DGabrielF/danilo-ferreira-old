@@ -16,7 +16,7 @@ export class FerrisWheelComponent implements OnInit {
 
   arrayWithPosition:any[] = []
   imageBaseUrl:string = "../.."
-  constructor(protected Contact: ContactService) { }
+  constructor(protected contact: ContactService) { }
 
   ngOnInit(): void {
     this.arrayWithPosition = [...this.itemsArray]

@@ -42,11 +42,7 @@ export class ContactService {
     return supportsTouch || isMobileUserAgent;
   }
 
-  sendEmail(
-    email:string="",
-    subject:string="",
-    body:string=""
-  ):void {
+  sendEmail( email:string="", subject:string="", body:string=""):void {
     let request = `mailto:${email}`
     if (subject !== "") {
       request += `&subject=${encodeURIComponent(subject)}`;
@@ -55,5 +51,10 @@ export class ContactService {
       request += `&body=${encodeURIComponent(body)}`;
     }
     window.open(request, '_blank')
+  }
+
+  openCurriculum() {
+    const link = "https://dgabrielf.github.io/curriculum/"
+    window.open(link, "_blank")
   }
 }

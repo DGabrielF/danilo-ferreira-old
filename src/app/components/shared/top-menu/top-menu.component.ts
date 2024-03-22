@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ContactService } from 'src/app/service/contact.service';
 
 @Component({
   selector: 'app-top-menu',
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class TopMenuComponent implements OnInit {
   menuIsOpen: boolean = false;
 
-  constructor() { }
+  constructor(protected contact: ContactService) { }
 
   ngOnInit(): void {
   }
