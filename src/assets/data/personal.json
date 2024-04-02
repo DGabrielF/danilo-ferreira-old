@@ -650,7 +650,7 @@
       "name": "Formulário de endereço com CEP em JavaScript",
       "slug": "cep",
       "spotlight":true,
-      "description": "O projeto consiste em criar uma interface com auto preenchimento de campos do endereço com base no CEP digitado.",
+      "description": "O projeto consistiu em criar uma interface com auto preenchimento de campos do endereço com base no CEP digitado.",
       "githubUrl": "https://github.com/DGabrielF/js-cep-challenge/",
       "siteUrl": "https://dgabrielf.github.io/js-cep-challenge/",
       "usedTools": ["HTML", "CSS", "JavaScript", "API"],

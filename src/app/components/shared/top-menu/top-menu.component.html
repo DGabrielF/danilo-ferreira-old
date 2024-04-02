@@ -15,7 +15,7 @@
       <a href="#projects"><span class="matrix">3</span>.Projetos</a>
       <a href="#contact"><span class="matrix">4</span>.Contato</a>
     </div>
-    <button class="curriculum">Currículo</button>
+    <button  (click)="contact.openCurriculum()" class="curriculum">Currículo</button>
   </div>
   <img (click)="toggleMenuIsOpen()" src="./assets/icons/list-menu.svg" alt="" class="list_menu">
   <div class="top_menu_drop" *ngIf="menuIsOpen">
