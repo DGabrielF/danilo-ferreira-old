@@ -28,7 +28,7 @@ button {
   color: #0f0a;
   text-transform: uppercase;
   border: 1px solid #0f0a;
-  border-radius: 4px;
+  border-radius: 6px;
   background-color: transparent;
   cursor: pointer;
 }
@@ -99,4 +99,46 @@ li {
   border: 2px solid #0f0d;
 
   background-color: #0f0d;
+}
+
+@keyframes shakeButton {
+  0% {
+    color: #0f0a;
+    box-shadow: 0 0 5px #0f0a;
+    transform: rotate(0deg);
+  }
+  40% {
+    color: #0f0c;
+    text-shadow: 0 0 2px #0f0;
+    box-shadow: 0 0 10px #0f0e;
+  }
+  43% {
+    color: #0f0e;
+    text-shadow: 0 0 3px #0f0;
+    box-shadow: 0 0 10px #0f0c;
+  }
+  45% {
+    color: #0f0;
+    text-shadow: 0 0 4px #0f0;
+    box-shadow: 0 0 10px #0f0;
+    transform: rotate(0deg);
+  }
+  48% {
+    transform: rotate(3deg);
+  }
+  49% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+  51% {
+    transform: rotate(-3deg);
+  }
+  58% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }

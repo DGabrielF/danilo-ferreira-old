@@ -15,11 +15,31 @@
   letter-spacing: 1.2px;
   text-transform: uppercase;
   font-size: xx-large;
+
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.name>span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: showLastName 8s infinite;
+  transition: font-size 0.1s ease-in-out;
 }
 .subtitle {
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+}
+.joke {
   color: #0f0;
   letter-spacing: 1.2px;
   font-size: x-large;
+  animation: moveJoke 10s infinite;
+  transition: top 0.5s ease-in-out;
+  position: absolute;
+  transform: translateY(-50%);
 }
 .excerpt {
   color: #0f0a;
@@ -28,4 +48,45 @@
 .home>button{
   margin: 10px 0;
   width: 160px;
+  animation: shakeButton 10s infinite;
 }
+
+@keyframes moveJoke {
+  0% {
+    top: 0%;
+  }
+  5% {
+    top: 50%;
+  }
+  90% {
+    top: 50%;
+  }
+  95% {
+    top: 150%;
+  }
+  100% {
+    top: 150%;
+  }
+}
+
+@keyframes showLastName {
+  0% {
+    opacity: 0;
+    font-size: 1%;
+  }
+  5% {
+    opacity: 1;
+    font-size: 100%;
+  }
+
+  95% {
+    opacity: 1;
+    font-size: 100%;
+  }
+  100% {
+    opacity: 0;
+    font-size: 1%;
+  }
+}
+
+

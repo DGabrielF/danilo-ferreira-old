@@ -15,13 +15,7 @@ Este é o repositório do meu portfólio pessoal desenvolvido usando Angular. Es
 - **GitHub Pages**: Hospedagem gratuita para o portfólio, facilitando o compartilhamento e acesso.
 
 ### Como Contribuir:
-Se você encontrar algum problema, tiver alguma sugestão ou desejar contribuir de alguma forma, sinta-se à vontade para abrir uma issue ou enviar um pull request. Seu feedback é sempre bem-vindo!
-
-### Visualização Online:
-Uma versão online do portfólio está disponível em [link para a versão hospedada, se aplicável].
-
-### Capturas de Tela:
-![Captura de tela do portfólio](link_para_captura_de_tela.png)
+Se você encontrar algum problema, tiver alguma sugestão ou desejar contribuir de alguma forma, sinta-se à vontade para abrir uma issue ou enviar um pull request. Seu feedback será sempre bem-vindo!
 
 ### Agradecimentos:
-Agradeço a todos os desenvolvedores cujos projetos e tutoriais contribuíram para o desenvolvimento deste portfólio.
+Agradeço a todos os professores da DIO, especialmente ao Felipão, ao Luiz Otávio da Udemy, aos gêmeos do DevEmDobro,  contribuíram não só para o desenvolvimento deste portfólio, como para o desenvolvimento de um profissional.

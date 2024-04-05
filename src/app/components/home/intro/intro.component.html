@@ -1,7 +1,11 @@
 <section class="home">
   <p class="greeting">{{greeting}}, meu nome é</p>
-  <h1 class="name">{{firstName}} {{randomName}}.</h1>
-  <h2 class="subtitle">{{joke}}</h2>
+  <h1 class="name">{{firstName}} <span>{{randomName}}.</span></h1>
+  <h2 class="subtitle">
+    <div class="joke">
+      {{joke}}
+    </div>
+  </h2>
   <p class="excerpt">{{data.introduction.aboutMe}}</p>
   <button (click)="Contact.chatOnWhatsapp()">Chama no Whats</button>
 </section>

@@ -78,6 +78,10 @@ a {
   gap: 4px;
 }
 
+.curriculum{
+  animation: shakeButton 10s infinite;
+}
+
 @media only screen and (max-width: 549px) {
   .top_menu_right {
     display: none;
