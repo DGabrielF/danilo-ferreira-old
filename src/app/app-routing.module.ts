@@ -4,8 +4,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { ProjectComponent } from './pages/project/project.component';
 
 const routes: Routes = [
-  {path:"", component:HomeComponent},
-  {path:"project/:slug", component:ProjectComponent}
+  {path:"/personal-site", component:HomeComponent},
+  {path:"/personal-site/project/:slug", component:ProjectComponent}
 ];
 
 @NgModule({
