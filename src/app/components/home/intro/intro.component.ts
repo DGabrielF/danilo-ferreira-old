@@ -42,11 +42,15 @@ export class IntroComponent implements OnInit {
   }
 
   handleRandomName():void {
-    const index = Math.floor(Math.random()*(data.personal.name.split(' ').length-1)+1);
-    this.randomName =
-      (data.personal.name.split(' ')[index].length <= 2)?
-      `${data.personal.name.split(' ')[index]} ${data.personal.name.split(' ')[index + 1]}`:
+    while (true) {
+      const index = Math.floor(Math.random()*(data.personal.name.split(' ').length-1)+1);
+      let nextName = (data.personal.name.split(' ')[index].length <= 2)? `${data.personal.name.split(' ')[index + 1]}`:
       data.personal.name.split(' ')[index]
+      if (this.randomName !== nextName) {
+        this.randomName = nextName
+        break
+      }
+    }
   }
 
   handleJoke():void {
