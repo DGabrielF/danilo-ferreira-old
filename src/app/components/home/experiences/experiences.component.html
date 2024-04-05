@@ -18,9 +18,9 @@
         <span class="company">{{companySelected.company}}</span>
         <span class="position">{{companySelected.position}}</span>
       </div>
-      <div class="period">
+      <!-- <div class="period">
         <span>02/02/2022 a 02/02/2023</span>
-      </div>
+      </div> -->
       <div class="horizontal_line"></div>
       <div class="content">
         <div class="activities">
@@ -35,6 +35,7 @@
         <div class="projects">
           <div
           *ngFor="let project of companySelected.developedProjects"
+          [routerLink]="['project', project.slug]"
           class="project">
             {{project.name}}
           </div>
